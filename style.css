@@ -1,0 +1,100 @@
+@import url("https://fonts.google.com/specimen/Fraunces)");
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: papayawhip;
+    font-size: 1.1rem;
+    font-family: fraunces;
+    max-width: 700px;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+img{
+    max-width: 100%;
+   display: block;
+}
+
+
+
+.btn{
+    color: black;
+    text-decoration: none;
+     background-color: green;
+    padding: 2rem; 
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    margin-top: 50px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+   
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    grid-auto-rows: minmax(100px auto); 
+    margin-top: 5rem;
+ 
+}
+
+.header{
+    background-color: white;
+    padding: 2em;
+    
+}
+
+.header .logo{
+    color: #a8a8a8cb;
+    letter-spacing: 5px;
+    margin-bottom: 1rem;
+}
+
+.header h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;  
+    font-size: xx-large;
+    margin-bottom:2rem ;
+}
+
+.header p{
+   color: #887c7c; 
+   font-family: 'Courier New', Courier, monospace;
+}
+
+.green {
+  color: green;
+  font-size: xx-large;
+  font-weight: bolder;
+  margin-right: 4rem;
+  
+}
+
+.overline{
+    text-decoration: line-through;
+    color: rgb(100, 94, 94);
+}
+
+.button{
+    color: white;
+    padding: 2.5rem;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+@media (max-width:700px){
+    .container{
+        grid-template-columns: 1fr;
+    }
+
+    
+}
+
